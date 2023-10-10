@@ -31,7 +31,7 @@ int main() {
     pairs = 0;
     odds = 0;
 
-  int number[5], pairs = 0;
+  int number[5];
   for(int i=0; i<5; i++){
     cin >> number[i];
     pair_or_odd(number[i]);

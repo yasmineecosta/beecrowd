@@ -12,7 +12,7 @@ int main() {
     cin >> X;
     if(X == 0){
       cout << "NULL" << endl;
-    }else if(i % 2 == 0){
+    }else if(X % 2 == 0){
         if(X > 0)
           cout << "EVEN" << " " << "POSITIVE" << endl;
         else

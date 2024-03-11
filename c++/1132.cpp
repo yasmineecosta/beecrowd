@@ -5,12 +5,22 @@ using namespace std;
 
 int main() {
   int X,Y, sum;
-  sum = 0;
   cin >> X >> Y;
-  for(int i=X; i<=Y; i++){
-    if(i%13 != 0) sum += i;
+  sum = 0;
+  if(X>=Y){
+    for(int i=X; i<=Y; i++){
+        if(i%13 != 0){
+            sum += i;
+        }
+    }
+  }else{
+    for(int i=Y; i<=X; i++){
+        if(i%13 != 0){
+            sum += i;
+        }
+    }
   }
-    cout << sum << endl;
+  cout << sum << endl;
   
   return 0;
 }

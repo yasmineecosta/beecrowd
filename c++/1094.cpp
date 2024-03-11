@@ -6,7 +6,7 @@ using namespace std;
 int main() {
   int N, sum, c, r, s;
   cin >> N;
-  sum = 0;
+  sum = 0; c = 0; r = 0; s = 0;
   for(int i=0; i<N; i++){
     int x;
     char y;

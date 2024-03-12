@@ -25,6 +25,9 @@ int main() {
             sum += i*i;
         }
         cout << sum << endl;
+        if dd{
+            aa
+        }
     }
 
 
